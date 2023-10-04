@@ -4,6 +4,8 @@ alias bob='php artisan bob::build'
 
 # Development
 alias pas='php artisan serve'
+alias pawb='php artisan websocket:serve'
+alias pat='php artisan tinker'
 
 # Database
 alias pam='php artisan migrate'
@@ -24,6 +26,7 @@ alias pamj='php artisan make:job'
 alias paml='php artisan make:listener'
 alias pamn='php artisan make:notification'
 alias pampp='php artisan make:provider'
+alias pamr='php artisan make:request'
 
 
 # Clears
@@ -39,3 +42,6 @@ alias paql='php artisan queue:listen'
 alias paqr='php artisan queue:retry'
 alias paqt='php artisan queue:table'
 alias paqw='php artisan queue:work'
+
+# storage
+alias pasl='php artisan storage:link'
